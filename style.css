@@ -1,0 +1,92 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  background: hotpink;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: monospace;
+}
+
+div {
+  display: flex;
+}
+
+h1 {
+  font-size: 20rem;
+  margin: 0;
+}
+
+h3 {
+  padding: 3px;
+  font-size: 10rem;
+  margin: 50px 50px;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  width: 100px;
+  height: 50px;
+  background: skyblue;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+
+button {
+  font-size: 5rem;
+  width: 300px;
+  height: 250px;
+  margin: 20px 30px;
+  border: none;
+  border-radius: 8px;
+  transition: 0.5s;
+  background: skyblue;
+  color: white;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+  justify-content: center;
+}
+
+.container-2 {
+  justify-content: center;
+  align-items: center;
+}
+
+#displayNumber {
+  margin: 50px 10px;
+}
+
+#add1:hover {
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+    rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
+    rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+#add2:hover {
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+    rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+#reset:hover {
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px,
+    rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px,
+    rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+#reset {
+  width: 200px;
+  height: 200px;
+}
